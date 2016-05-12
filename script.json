@@ -1,8 +1,14 @@
 {
-    "BOT": "Hi there!\nI’m the personal bot of Andy Brown, a Web Developer from New Hampshire.\nWant to know more about bots or learn about Esther? %[I'm here for the bot](postback:here_for_the_bot) %[Learn about Esther](postback:learn_about_esther) %[One random fact!](postback:random_fact)",
-    "HELLO": "Hey, I'm so glad you set EstherBot up! Do you want to tell Esther that you're talking to her bot? %[Tell her](postback:twitter)",
-    "TELL HER": "Let's tweet @ Esther so she knows you're setting a bot up. Here's a tweet that's ready to go: %[Tweet Esther](http://bit.ly/estherbot-tweet)",
-    "I LOVE YOU": "Awh, shucks! I love you too!",
-    "CONNECT ME": "",
-    "DISCONNECT": "Roger that, AndyBot is back."
+    "HELLO": "Hi there!\nI’m the personal bot of Andy Brown, a Web Developer from New Hampshire.\nWhat brings you here? %[Checking out your resume](postback:RESUME) %[Wanted to get in touch](postback:CONTACT) %[We play soccer together](postback:SOCCER)",
+    "RESUME": "Very nice! I've got a fancy version on my website, or I can chat about it here. %[Show me the website](http://br0wn.net) %[Tell me more](postback:MORE)",
+    "MORE": "Ok! What would you like to know about? %[Employment History](postback:EMPLOYMENT) %[Education](postback:EDUCATION) %[Extracurriculars](postback:EXTRAS)",
+    "EMPLOYMENT": "Right now I'm working as a Web Application Engineer at Genuine in Boston, MA. %[What else have you done?](postback:MOREWORK) %[What else you got?](postback:MORE) %[I'm all good!](postback:DONE)",
+    "MOREWORK": "Before Genuine I was at Planet Fitness managing their IT department and before that I was a web developer at AdminInternet.%[What else you got?](postback:MORE) %[I'm all good!](postback:DONE)",
+    "EDUCATION": "I went to Salem High School in New Hampshire, and then graduated from the University of NH with a Bachelors in Communication with a minor in Computer Information Technology. %[What else you got?](postback:MORE) %[I'm all good!](postback:DONE)",
+    "EXTRAS": "When I'm not making websites or cool chatbots, I'm probably building things out of wood or chasing a soccer ball. %[What else you got?](postback:MORE) %[I'm all good!](postback:DONE)",
+    "CONTACT": "Well alright! If I'm around you may hear from me on this chat (because it's magical like that). But here are some other ways to get in touch. %[Tweet Me](https://twitter.com/arbrown83) %[Check out my website](http://br0wn.net)",
+    "SOCCER": "Ah, you poor bastard. What were you looking for? %[When's the next game?](postback:NEXTGAME) %[I want to pay you money!](postback:PAYSOCCER)",
+    "NEXTGAME": "I dunno yet. I haven't been programmed for that yet!",
+    "PAYSOCCER": "$[Soccer Session](66.00)",
+    "DONE": "Thanks for chatting! Hopefully we'll talk again soon!"
 }
